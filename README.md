@@ -1,4 +1,4 @@
-# Create a simple webserver on AWS usiung Pulumi and Python
+# Create a simple webserver on AWS using Pulumi and Python
 
 Install some neccessary Python packages
 
