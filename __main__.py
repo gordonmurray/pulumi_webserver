@@ -3,9 +3,9 @@ import pulumi_aws as aws
 
 # Define some variables to use in the stack
 size = "t2.micro"
-vpc_id = "vpc-e8bfa78d"
-subnet_id = "subnet-a135ded7"
-public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnyvPtE6dXGtPj8xwuvI54ULkfbnAjAFP3UWZC5WXc3ag/IGCuxLbMvbRRUsn9ytnb5JYDR6tPYqYRrWWjhp8sRqWlxe8Vm6X8iSUSvswKsgKRFKJtgkmHm+qx+3o+r7Mmcf+oxGDlajqAMk1vgX0aUtNMerKjd6KLa5hV3f4MjLEFwzIKUDvdLywCVSWoBsAvY6H9QvbUxMJL1+nMbBusqvV8Wv6RPpEH5T5BFJWf5Krl++olGg9PAD0eCgINLoXgnCjgtH2oYH3GGAgtRs1uErKSRXaJ8Twknq8cTCIW2vLHxd1h/yeGVpaA4ypdeFDtef0fHhds2z5wy+D65E0N gordon@picard"
+vpc_id = "vpc-xxxxxx"
+subnet_id = "subnet-xxxxxx"
+public_key = "ssh-rsa xxxxxxxxxxxxxxxxxxxxxxx"
 user_data = """#!/bin/bash
 sudo apt update
 sudo apt install apache2 -y
